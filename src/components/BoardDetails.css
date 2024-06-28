@@ -1,0 +1,39 @@
+.board-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282c34;
+}
+
+.board-details button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #282c34;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.board-details button:hover {
+    background-color: #3c3f42;
+}
+
+.board-details.game-over {
+    background-color: gray;
+    /* Apply gray background when game is over */
+}
+
+.game-result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.game-result.win {
+    color: green;
+}
+
+.game-result.lose {
+    color: red;
+}

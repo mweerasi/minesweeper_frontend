@@ -1,0 +1,16 @@
+.cell {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid #555;
+}
+
+.cell.revealed {
+    background-color: #777;
+    cursor: default;
+}
